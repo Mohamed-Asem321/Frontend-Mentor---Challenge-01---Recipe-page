@@ -3,7 +3,7 @@ body {
 }
 
 .parent {
-    max-width: 1440px;
+    max-width: 900px;
     margin: 50px auto;
     padding: 45px;
     background-color: hsl(0, 0%, 100%);
@@ -11,18 +11,20 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 20px;
 }
 
 .head h1 {
     font-size: 55px;
+    font-weight: bold;
+    color: hsl(24, 5%, 18%);
 }
 
 .head p {
     width: 80%;
     font-size: 28px;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 /* ================================================= */
@@ -46,7 +48,7 @@ img {
     padding-left: 22px;
     margin: 20px;
     padding-bottom: 6px;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 .preparation-color-bullets li::marker {
@@ -63,13 +65,13 @@ img {
 
 .Ingredients h2 {
     font-size: 48px;
-    color: hsl(15.41deg, 41.11%, 35.29%);
+    color: hsl(14, 45%, 36%);
 }
 
 .Ingredients ul li {
     font-size: 28px;
     padding-left: 22px;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 .Ingredients-color-bullets li::marker {
@@ -87,13 +89,13 @@ img {
 
 .Instructions h2 {
     font-size: 48px;
-    color: hsl(15.41deg, 41.11%, 35.29%);
+    color: hsl(14, 45%, 36%);
 }
 
 .Instructions ol li {
     font-size: 28px;
     padding-left: 22px;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 .last-instruction {
@@ -110,12 +112,12 @@ img {
 
 .Nutrition h2 {
     font-size: 48px;
-    color: hsl(15.41deg, 41.11%, 35.29%);
+    color: hsl(14, 45%, 36%);
 }
 
 .Nutrition p {
     font-size: 28px;
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
 }
 
 /* ================================================= */
