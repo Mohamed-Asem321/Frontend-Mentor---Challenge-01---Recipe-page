@@ -1,0 +1,211 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.parent {
+    max-width: 1440px;
+    margin: 50px auto;
+    padding: 45px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.head h1 {
+    font-size: 55px;
+}
+
+.head p {
+    width: 80%;
+    font-size: 28px;
+    color: hsl(24, 5%, 18%);
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    font-size: 28px;
+    border-radius: 15px;
+    margin: 55px 0 55px 0;
+    padding: 2px 30px 20px ;
+}
+
+.preparation h3 {
+    font-size: 32px;
+    padding: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation ul li {
+    padding-left: 22px;
+    margin: 20px;
+    padding-bottom: 6px;
+    color: hsl(24, 5%, 18%);
+}
+
+.preparation-color-bullets li::marker {
+    color: hsl(15.41deg, 41.11%, 35.29%);
+    font-size: 20px;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.Ingredients {
+    margin-bottom: 45px;
+}
+
+.Ingredients h2 {
+    font-size: 48px;
+    color: hsl(15.41deg, 41.11%, 35.29%);
+}
+
+.Ingredients ul li {
+    font-size: 28px;
+    padding-left: 22px;
+    color: hsl(24, 5%, 18%);
+}
+
+.Ingredients-color-bullets li::marker {
+    color: hsl(15.41deg, 41.11%, 35.29%);
+    font-size: 20px;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.Instructions {
+    border-top: 1px solid hsl(30, 18%, 87%) ;
+    border-bottom: 1px solid hsl(30, 18%, 87%) ;
+}
+
+.Instructions h2 {
+    font-size: 48px;
+    color: hsl(15.41deg, 41.11%, 35.29%);
+}
+
+.Instructions ol li {
+    font-size: 28px;
+    padding-left: 22px;
+    color: hsl(24, 5%, 18%);
+}
+
+.last-instruction {
+    margin-bottom: 55px;
+}
+
+.Instructions-color-numbers li::marker {
+    color: hsl(15.41deg, 41.11%, 35.29%);
+    font-weight: bold;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+.Nutrition h2 {
+    font-size: 48px;
+    color: hsl(15.41deg, 41.11%, 35.29%);
+}
+
+.Nutrition p {
+    font-size: 28px;
+    color: hsl(24, 5%, 18%);
+}
+
+/* ================================================= */
+/* ================================================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr td {
+    /* border-bottom: 1px solid hsl(30, 18%, 87%); */
+    padding: 10px;
+}
+
+.row-1, .row-2, .row-3 {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.table-text {
+    font-size: 28px;
+    position: relative;
+    left: 50px;
+}
+
+.table-measure {
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    left: -70px;
+    color: hsl(15.41deg, 41.11%, 35.29%);
+}
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-family: "outfit", sans-serif;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+hr {
+    border: -1px;
+}
+
+span {
+    font-weight: bold;
+} /* General feature */
+
+/* Framework */
+
+.title-font {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-font {
+    font-family: "outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* ================================================= */
+/* ================================================= */
+
+/* Mobile */
+
+ @media (max-width: 375px) { 
+
+} 
+
+/* Desktop */
+
+@media (min-width: 376px) and (max-width: 1440px) {
+
+}
+
+
+
+
+
+
+
+
+
