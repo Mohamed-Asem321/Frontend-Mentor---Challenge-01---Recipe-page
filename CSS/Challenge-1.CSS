@@ -52,7 +52,7 @@ img {
 }
 
 .preparation-color-bullets li::marker {
-    color: hsl(15.41deg, 41.11%, 35.29%);
+    color: hsl(14, 45%, 36%);
     font-size: 20px;
 }
 
@@ -75,7 +75,7 @@ img {
 }
 
 .Ingredients-color-bullets li::marker {
-    color: hsl(15.41deg, 41.11%, 35.29%);
+    color: hsl(14, 45%, 36%);
     font-size: 20px;
 }
 
@@ -103,7 +103,7 @@ img {
 }
 
 .Instructions-color-numbers li::marker {
-    color: hsl(15.41deg, 41.11%, 35.29%);
+    color: hsl(14, 45%, 36%);
     font-weight: bold;
 }
 
@@ -129,7 +129,6 @@ table {
 }
 
 tr td {
-    /* border-bottom: 1px solid hsl(30, 18%, 87%); */
     padding: 10px;
 }
 
@@ -141,6 +140,7 @@ tr td {
     font-size: 28px;
     position: relative;
     left: 50px;
+    color: hsl(30, 10%, 34%);
 }
 
 .table-measure {
@@ -148,7 +148,7 @@ tr td {
     font-weight: bold;
     position: relative;
     left: -70px;
-    color: hsl(15.41deg, 41.11%, 35.29%);
+    color: hsl(14, 45%, 36%);
 }
 
 .attribution {
